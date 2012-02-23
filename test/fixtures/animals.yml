@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  race: MyString
+  age: 1
+  vacinated: false
+  vermifugated: false
+  temperament: MyString
+  color: MyString
+  details: MyText
+
+two:
+  type: 
+  race: MyString
+  age: 1
+  vacinated: false
+  vermifugated: false
+  temperament: MyString
+  color: MyString
+  details: MyText

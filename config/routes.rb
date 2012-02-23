@@ -1,4 +1,16 @@
 Gataria::Application.routes.draw do
+  get "animals/index"
+
+  get "anuncios/index"
+
+  get "anuncios/edit"
+
+  get "anuncios/update"
+
+  get "anuncios/show"
+
+  get "anuncios/destroy"
+
   get "posts/index"
 
   mount Ckeditor::Engine => '/ckeditor'

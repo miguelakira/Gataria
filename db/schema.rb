@@ -11,7 +11,30 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120220025704) do
+ActiveRecord::Schema.define(:version => 20120223011454) do
+
+  create_table "animals", :force => true do |t|
+    t.string   "type"
+    t.string   "race"
+    t.integer  "age"
+    t.boolean  "vacinated"
+    t.boolean  "vermifugated"
+    t.string   "temperament"
+    t.string   "color"
+    t.text     "details"
+    t.integer  "anuncio_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "anuncios", :force => true do |t|
+    t.integer  "user_id"
+    t.boolean  "active"
+    t.boolean  "donated"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "ckeditor_assets", :force => true do |t|
     t.string   "data_file_name",                  :null => false

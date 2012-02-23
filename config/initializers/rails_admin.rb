@@ -17,9 +17,6 @@ RailsAdmin.config do |config|
   end
 
 
-  config.model User do
-    include_all_fields
-  end
   config.current_user_method { current_user } # auto-generated
 
   # If you want to track changes on your models:

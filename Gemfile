@@ -20,7 +20,7 @@ gem 'jquery-rails'
 gem "ckeditor", "3.7.0.rc2"
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem "paperclip"
-
+gem "formtastic"
 
 
 # To use ActiveModel has_secure_password
